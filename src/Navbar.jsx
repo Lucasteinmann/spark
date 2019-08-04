@@ -9,7 +9,7 @@ import Button from '@material-ui/core/Button';
 
 function NavBar(props) {
   return (
-    <List component="nav" style={{ backgroundColor: '#3F4448' }}>
+    <List component="nav">
       <ListItem component="div">
         <ListItemText inset>
           <Button color="inherit" variant="outlined" onClick={() => alert('Does NOthong')}>
