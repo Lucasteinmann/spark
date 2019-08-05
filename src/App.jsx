@@ -18,7 +18,7 @@ const theme = createMuiTheme(
   },
 );
 
-console.log('theme: ', theme);
+console.log('theme: ', theme); // eslint-disable-line no-console
 
 class App extends React.PureComponent {
   render() {
@@ -27,10 +27,10 @@ class App extends React.PureComponent {
         <AppBar color="primary" position="static">
           <Toolbar>
             <Typography
-              variant="title"
+              variant="h4"
               color="inherit"
             >
-            Spark
+              Spark
             </Typography>
             <NavBar />
           </Toolbar>
