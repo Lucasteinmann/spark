@@ -3,11 +3,11 @@ import React from 'react';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
-import Typography from '@material-ui/core/Typography';
+// import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 
 
-function NavBar(props) {
+function NavBar() {
   return (
     <List component="nav">
       <ListItem component="div">
